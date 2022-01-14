@@ -1,0 +1,91 @@
+.restaurant-photo {
+    background-image: url(../images/home/bg1.jpg);
+    width: 100%;
+    height: 20em;
+    background-attachment: fixed;
+    background-position: center -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 48px 48px 0 48px;
+}
+
+.restaurant-logo {
+    text-align: right;
+    font-size: 36px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.promo-text {
+    width: 50%;
+}
+
+.promo-text p {
+    width: 50%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 25em;
+    padding: 30px;
+}
+
+.gallery img {
+    transition: 0.5s;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.gallery img:hover {
+    width: 500px;
+    height: auto;
+}
+
+.quote {
+    background-image: url(../images/home/bg2.jpg);
+    width: 100%;
+    height: 5em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:antiquewhite;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 48px;
+    height: 500px;
+}
+
+.address iframe {
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.address-text {
+    width: 50%;
+    font-weight: bold;
+    font-size: 32px;
+}

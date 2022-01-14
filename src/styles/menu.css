@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+}
+
+.mainDishes {
+    background-color: whitesmoke;
+    width: 80%;
+    padding: 30px;
+    font-size: 32px;
+}

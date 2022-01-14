@@ -1,0 +1,26 @@
+:root {
+    --background-color: #876445;
+    --font-color: #CA965C;
+    --header-background-color: #EEC373;
+    --header-font-color: #F4DFBA;
+}
+
+@font-face {
+    font-family: "Modernist";
+    src: url('../fonts/Sk-Modernist-Regular/Sk-Modernist-Regular.woff2') format('woff2'),
+        url('../fonts/Sk-Modernist-Regular/Sk-Modernist-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Modernist", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
