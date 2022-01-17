@@ -22,7 +22,13 @@
     position: relative;
 }
 
-.header li::after {
+.header a {
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.header a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -35,12 +41,16 @@
     transition: opacity 300ms, transform 300ms;
 }
 
-.header li:hover::after,
-.header li:focus::after {
+.header a:hover::after,
+.header a:focus::after {
     transform: translate3d(0, 0, 0);
 }
 
-.header li:hover {
+.header a:hover {
     color: #CA965C;
     cursor: pointer;
+}
+
+.header a:visited {
+    color:inherit;
 }

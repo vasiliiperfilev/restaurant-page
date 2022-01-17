@@ -11,3 +11,12 @@
     padding: 30px;
     font-size: 32px;
 }
+
+@media screen and (max-width: 500px) {
+    .mainDishes {
+        background-color: whitesmoke;
+        width: 100%;
+        padding: 30px;
+        font-size: 32px;
+    }
+}

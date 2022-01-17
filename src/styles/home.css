@@ -16,9 +16,16 @@
     padding: 48px 48px 0 48px;
 }
 
+@media screen and (max-width: 500px) {
+    .info {
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
 .restaurant-logo {
     text-align: right;
-    font-size: 36px;
+    font-size: 2em;
     font-weight: bold;
     width: 50%;
 }
@@ -31,25 +38,58 @@
     width: 50%;
 }
 
+@media screen and (max-width: 500px) {
+    .restaurant-logo  {
+        text-align: center;
+        width: 100%;
+    }
+
+    .promo-text {
+        width: 100%;
+        text-align: center;
+    }
+    .promo-text p {
+        width: 100%;
+    }
+}
+
 .gallery {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 25em;
+    height: 20em;
     padding: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .gallery {
+        flex-direction: column;
+        height: 35em;
+    }
 }
 
 .gallery img {
     transition: 0.5s;
+    width: 40%;
     height: auto;
     border-radius: 8px;
     box-shadow: 3px 3px 3px grey;
 }
 
 .gallery img:hover {
-    width: 500px;
+    width: 45%;
     height: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .gallery img {
+        width: 80%;
+    }
+
+    .gallery img:hover {
+        width: 85%;
+    }
 }
 
 .quote {
@@ -66,6 +106,13 @@
     color:antiquewhite;
     font-size: 48px;
     font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .quote {
+        font-size: 16px;
+    }
 }
 
 .address {
@@ -75,6 +122,12 @@
     gap: 20px;
     padding: 48px;
     height: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    .address {
+        flex-direction: column;
+    }
 }
 
 .address iframe {
@@ -88,4 +141,17 @@
     width: 50%;
     font-weight: bold;
     font-size: 32px;
+}
+
+@media screen and (max-width: 500px) {
+    .address iframe {
+        width: 80%;
+    }
+
+    .address-text {
+        width: 100%;
+        font-weight: bold;
+        font-size: 32px;
+        text-align: center;
+    }
 }

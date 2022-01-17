@@ -17,6 +17,7 @@ function createPage(main){
 
     //add event listeners for tabbing
     document.querySelector(".Home").addEventListener("click", createPage.bind(null, createHome()));
+    document.querySelector(".header img").addEventListener("click", createPage.bind(null, createHome()));
     document.querySelector(".Menu").addEventListener("click", createPage.bind(null, createMenu()));
     document.querySelector(".Contacts").addEventListener("click", createPage.bind(null, createContact()));
 

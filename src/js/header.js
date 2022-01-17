@@ -9,7 +9,10 @@ function createHeader() {
     const menus = ["Home", "Menu", "Contacts"];
     menus.forEach((menu) => {
         const li = document.createElement("li");
-        li.textContent = menu;
+        const a = document.createElement("a");
+        a.href = `#${menu}`;
+        a.textContent = menu;
+        li.appendChild(a);
         li.classList.add(menu);
         ul.appendChild(li);
     })
